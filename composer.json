@@ -4,6 +4,6 @@
     "description": "Mika Framework Template",
     "license": "GPL-3.0-or-later",
     "require": {
-        "php": "~7.2"
+        "ka-apps/mika": "~0.0.1",
     }
 }
