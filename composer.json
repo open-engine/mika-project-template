@@ -3,6 +3,6 @@
     "description": "Mika Framework Template",
     "license": "GPL-3.0-or-later",
     "require": {
-        "ka-apps/mika": "~0.0.1"
+        "open-engine/mika": "~0.0.1"
     }
 }
