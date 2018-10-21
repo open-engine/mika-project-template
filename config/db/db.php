@@ -2,7 +2,7 @@
 
 return [
     'driver' => 'pdo_mysql',
-    'user' => 'root',
-    'password' => '',
-    'dbname' => 'foo',
+    'user' => 'dbuser',
+    'password' => 'dbpasswd',
+    'dbname' => 'mika',
 ];
