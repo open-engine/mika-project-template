@@ -3,6 +3,15 @@
     "description": "Mika Framework Template",
     "license": "GPL-3.0-or-later",
     "require": {
-        "open-engine/mika": "~0.0.1"
+        "php": "~7.2",
+        "open-engine/mika": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
     }
 }
