@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/usr/bin/php -S localhost:2222 -t ./web
