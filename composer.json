@@ -2,10 +2,7 @@
     "name": "open-engine/mika-project-template",
     "description": "Mika Framework Template",
     "license": "GPL-3.0-or-later",
-    "require": {
-        "php": "~7.2",
-        "open-engine/mika": "dev-master"
-    },
+    "type": "project",
     "autoload": {
         "psr-4": {
             "": "src/"
@@ -13,5 +10,10 @@
         "classmap": [
             "src/"
         ]
-    }
+    },
+    "require": {
+        "open-engine/mika": "~0.1.0",
+        "doctrine/orm": "^2.6",
+        "roave/security-advisories": "dev-master"
+    },
 }

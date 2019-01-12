@@ -1,10 +1,10 @@
 <?php
 
 use Doctrine\ORM\EntityManagerInterface;
-use OpenEngine\Mika\Core\Components\Di\DiConfig;
-use OpenEngine\Mika\Core\Components\Http\Message\Request\RequestFactory;
-use OpenEngine\Mika\Core\Components\Http\Message\Stream\StreamFactory;
-use OpenEngine\Mika\Core\Components\Http\Message\Uri\UriFactory;
+use OpenEngine\Di\DiConfig;
+use OpenEngine\Http\Message\Request\RequestFactory;
+use OpenEngine\Http\Message\Stream\StreamFactory;
+use OpenEngine\Http\Message\Uri\UriFactory;
 use OpenEngine\Mika\Core\Components\Route\Interfaces\RouteConfigInterface;
 use OpenEngine\Mika\Core\Components\Route\Interfaces\RouteInterface;
 use OpenEngine\Mika\Core\Components\Route\Route;

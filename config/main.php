@@ -1,6 +1,6 @@
 <?php
 
-use OpenEngine\Mika\Core\Helpers\Path;
+use OpenEngine\Helpers\Path;
 
 // set app path
 Path::setRoot(dirname(__DIR__));
