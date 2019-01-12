@@ -4,7 +4,7 @@ namespace App\Main\Controllers;
 
 use App\Main\Models\Foo;
 use Doctrine\ORM\EntityManagerInterface;
-use OpenEngine\Mika\Core\Components\Http\Message\Response\Response;
+use OpenEngine\Http\Message\Response\Response;
 
 /**
  * Class DefaultController
@@ -40,6 +40,6 @@ class DefaultController
             print $item->getName() . '<br>';
         }
 
-        return new Response('Dcotrine Test');
+        return new Response('Doctrine Test');
     }
 }
